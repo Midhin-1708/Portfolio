@@ -28,7 +28,7 @@ const projects = [
       "A professional portfolio website showcasing my experience, technical skills, and projects with a responsive modern UI.",
     technologies: ["React", "Tailwind CSS"],
     github: "https://github.com/Midhin-1708/Portfolio.git",
-    demo: "https://your-portfolio.netlify.app",
+    demo: "https://stackportfolio.netlify.app/",
   },
 ];
 
