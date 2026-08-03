@@ -1,16 +1,159 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and professional personal portfolio website built using React, Vite, and Tailwind CSS. This portfolio showcases my professional experience, technical skills, projects, and contact information with a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive design for Mobile, Tablet, Laptop, and Desktop
+- Sticky navigation bar with smooth scrolling
+- Professional Hero section
+- About section with career journey and education
+- Skills section with categorized technologies
+- Projects section with GitHub and Live Demo links
+- Contact form with client-side validation
+- Footer with social media links and back-to-top button
+- Modern UI with hover effects and transitions
+- Reusable React components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+
+### Libraries
+
+- React Icons
+
+### Tools
+
+- Git
+- GitHub
+- Netlify
+- Visual Studio Code
+
+---
+
+## React Concepts Used
+
+- Functional Components
+- useState Hook
+- Component Reusability
+- Props
+- Event Handling
+- Conditional Rendering
+- Array Mapping
+- Form Validation
+
+---
+
+## Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── projects/
+│   │   └── resume/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── utils/
+│   │   └── validation.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project folder:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## Sections Included
+
+- Home
+- About
+- Skills
+- Projects
+- Contact
+- Footer
+
+---
+
+## Deployment
+
+This project is deployed using Netlify.
+
+---
+
+## Author
+
+**Midhin M**
+
+Full Stack Developer
+
+---
+
+## License
+
+This project is created for learning and portfolio purposes.

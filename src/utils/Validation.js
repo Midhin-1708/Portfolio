@@ -1,4 +1,4 @@
-export const validateContact = (formData) => {
+const validateContact = (formData) => {
   const errors = {};
 
  
@@ -33,3 +33,5 @@ export const validateContact = (formData) => {
 
   return errors;
 };
+
+export default validateContact;
