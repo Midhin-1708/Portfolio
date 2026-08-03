@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { validateContact } from "../utils/validation";
+import validateContact from "../utils/validation";
 
 function Contact() {
   const [formData, setFormData] = useState({
